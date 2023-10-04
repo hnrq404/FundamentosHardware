@@ -1,5 +1,5 @@
 while True:
-    pergunta = input("o que quer calcular?")
+    pergunta = input("o que quer calcular? Digite 'r' para resistência; 'req' para resistência equivalente; 'v' para tensão; e 'a' para corrente: ")
     if pergunta == "r":
         v = float(input("qual a tensão aplicada no resitor em V?"))
         i = float(input("qual a corrente aplicada no resitor em mA?"))
